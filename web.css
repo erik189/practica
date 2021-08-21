@@ -1,0 +1,69 @@
+*{
+ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    }
+   body{
+       
+        
+        background: url(imagen/bl.jpg) no-repeat;
+        background-size: cover;
+
+
+ } 
+ .box{
+     margin: auto;
+     width: 500px;
+     margin-top: 4%;   
+     background: rgb(0,0,0,.4);
+     padding: 20px;  
+     color: white;
+     text-align: center;
+     border-radius: 1%;
+
+    
+ }
+ .box .img{
+     border-radius: 50%;
+ }
+ .box h1{
+     font-size: 40px;
+     letter-spacing: 4px; 
+     font-weight: 100;
+     margin-top: 30px;
+     margin-bottom: 20px;
+     
+ }
+ .box h2{
+    font-size: 20px;
+    letter-spacing: 3px; 
+    font-weight: 100;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.box p{
+    text-align: justify;
+
+}
+.box ul{
+    list-style: none;
+    margin-top: 20px;
+}
+.box ul li{
+    display: inline-block;
+}
+.box ul li a{
+    color: white;
+    font-size: 45px;
+    padding: 10px 5px; /*arribas y abajo corresponde los 10px y 5px a derecha e izaq. en ese orden*/ 
+    display: block; 
+    transition: all 0.5s ease-in-out;
+}
+.box ul li a:hover{
+    color: #b9b9b9;
+    transform: scale(1.1);
+
+    
+}
